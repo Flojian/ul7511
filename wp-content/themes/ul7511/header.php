@@ -26,7 +26,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], '
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
 <?php wp_head(); ?>
-
+<?php readfile(site_url('wp-content/themes/ul7511/images/global-sprite.svg')) ?>
 </head>
 
 <body <?php body_class(); ?>>

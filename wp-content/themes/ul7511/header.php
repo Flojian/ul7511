@@ -48,7 +48,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], '
 
 							<div id="logo">
 								<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-									<img class="navbar-brand" src="http://paris16.croix-rouge.fr/images/crf-logo.svg" />
+									<img class="navbar-brand" src="wp-content/themes/ul7511/images/crf-logo.svg" />
 									<span class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 										<?php bloginfo( 'name' ); ?>
 									</span>
@@ -67,6 +67,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], '
 
 		<div class="top-section">
 			<?php sparkling_featured_slider(); ?>
+			<?php custom_header_image(); ?>
 			<?php sparkling_call_for_action(); ?>
 		</div>
 

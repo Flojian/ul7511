@@ -48,7 +48,7 @@ if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], '
 
 							<div id="logo">
 								<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-									<img class="navbar-brand" src="wp-content/themes/ul7511/images/crf-logo.svg" />
+									<img class="navbar-brand" src="<?php echo site_url('wp-content/themes/ul7511/images/crf-logo.svg') ?>" />
 									<span class="navbar-brand" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 										<?php bloginfo( 'name' ); ?>
 									</span>

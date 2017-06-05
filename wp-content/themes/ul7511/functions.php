@@ -1,7 +1,7 @@
 <?php
 
 function my_custom_js() {
-    echo '<script src="wp-content/themes/ul7511/js/lib/parallax.min.js"></script>';
+    echo '<script src="' . site_url('wp-content/themes/ul7511/js/lib/parallax.min.js') . '"></script>';
 }
 // Add hook for front-end <head></head>
 add_action('wp_head', 'my_custom_js');
